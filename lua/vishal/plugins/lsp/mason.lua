@@ -38,7 +38,6 @@ return {
 				"prismals",
 				"pyright",
 				"clangd",
-				"zig",
 			},
 		})
 

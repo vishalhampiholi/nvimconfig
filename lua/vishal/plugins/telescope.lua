@@ -49,8 +49,8 @@ return {
 		keymap.set("n", "<leader>ft", "<cmd>TodoTelescope<cr>", { desc = "Find todos" })
 		keymap.set("n", "<leader>fh", builtin.help_tags, {})
 		keymap.set("n", "<leader>fk", builtin.keymaps, {})
-		keymap.set("n", "<leader>fb", builtin.marks, { desc = "find marks" })
-		keymap.set("n", "<leader>fa", builtin.marks, { desc = "find the lsp ref" })
+		keymap.set("n", "<leader>fm", builtin.marks, { desc = "find marks" })
+		keymap.set("n", "<leader>fa", builtin.lsp_references, { desc = "find the lsp ref" })
 		-- all the git related keymaps
 		keymap.set("n", "<leader>gc", builtin.git_commits, { desc = "search through commits" })
 		keymap.set("n", "<leader>gs", builtin.git_stash, { desc = "search through commits" })
